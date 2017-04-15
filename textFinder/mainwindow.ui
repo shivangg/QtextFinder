@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>411</width>
-    <height>322</height>
+    <height>379</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,6 +39,16 @@
     <item>
      <widget class="QTextEdit" name="textEdit"/>
     </item>
+    <item>
+     <widget class="QLabel" name="icon">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="textfinderresource.qrc">:/jderobot.png</pixmap>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -62,6 +72,8 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="textfinderresource.qrc"/>
+ </resources>
  <connections/>
 </ui>
